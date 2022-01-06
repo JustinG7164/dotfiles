@@ -1,0 +1,56 @@
+colors:
+  primary:
+    background: '#1c1c1c'
+    foreground: '#afafd7'
+  normal:
+    black:   '#2e313d'
+    red:     '#cf8164'
+    green:   '#76a065'
+    yellow:  '#ab924c'
+    blue:    '#8296b0'
+    magenta: '#a18daf'
+    cyan:    '#659ea2'
+    white:   '#b5b4c9'
+  bright:
+    black:   '#5b5f71'
+    red:     '#fe9f7c'
+    green:   '#92c47e'
+    yellow:  '#d2b45f'
+    blue:    '#a0b9d8'
+    magenta: '#c6aed7'
+    cyan:    '#7dc2c7'
+    white:   '#f0ecfe'
+
+background_opacity: 0.8
+
+font:
+  normal:
+    family: JetBrains Mono NL
+    style: Regular
+  bold:
+    family: JetBrains Mono NL
+    style: Bold
+  italic:
+    family: JetBrains Mono NL
+    style: Italic
+
+  # Point size
+  size: 12.0
+
+  offset:
+    x: 0
+    y: 2
+  glyph_offset:
+    x: 0
+    y: 0
+
+window:
+  padding:
+    x: 10
+    y: 10
+  decorations: full
+  title: Terminal
+
+scrolling:
+  history: 10000
+  multiplier: 10
